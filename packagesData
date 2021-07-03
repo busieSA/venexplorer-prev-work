@@ -1,0 +1,23 @@
+data installation plus instructions
+
+link to fontAwesome here :: 
+<script src="https://kit.fontawesome.com/11085c98bc.js" crossorigin="anonymous"></script>
+
+getbootstrap.com 
+
+terminal installation ::: 
+
+options here
+	\ npm install bootstrap 
+	\ gem install bootstrap -v 5.0.2
+WHEN INSTALLING FOR THE FIRST TIME FIRST INSTALL npm package 
+sudo apt install npm
+tried installing npm it needs funding
+
+
+so i hade to use gem which also needs to installing
+
+::	sudo apt install ruby
+
+
+

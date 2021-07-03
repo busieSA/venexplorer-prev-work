@@ -1,0 +1,83 @@
+/*
+fav fonts
+those Light 300 Regular 400 Bold 700 ( Roboto mono )
+
+css rule 
+font-family: 'Roboto Mono', monospace;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {	
+	background-color: #def2ff;
+	background-image: url(../svg/wave2.svg);
+	background-repeat: no-repeat;
+	background-position: sticky top;
+	color: #000000;
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400
+}
+
+}
+.bottom-wave {
+	width: fit-content;
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#top-sec {
+	border-style: solid 3px;
+	border-color: white;
+}
+
+/*
+Cards section css design here
+*/
+
+
+/*
+color selection for brand
+
+#0099ff
+#00bbff
+#00d5e9
+
+*/
+#card-sec {
+	margin: 4%;
+	padding: 3%;
+	
+
+}
+.col-sm-6{
+	margin-bottom: 8%;
+}
+.btn-primary {
+	color: #000000;
+	font-weight: 300;
+	background-color: #00bbff;
+	border: none;
+	border-radius: 25px;
+}
+.btn-primary:hover {
+	background-color: #00d5e9;
+}
+
+.card {	
+	text-align: center;
+	box-shadow: 0 4px 0 6px rgba(0, 0, 0, 0.2);
+	border-radius: 40px;
+}
+.card-title {
+	font-weight: 700;
+	text-transform: uppercase;
+}
