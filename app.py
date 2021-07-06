@@ -16,7 +16,9 @@ def work():
 	return render_template("work.html")
 
 # work links to catagories
-
+@app.route('/graphicdesign')
+def graphicdesign():
+	return render_template("graphicdesign.html")
 
 
 if __name__ == "__main__":
